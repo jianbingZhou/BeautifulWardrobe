@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAFFCFDF1D5B058D004A8265 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFFCFDE1D5B058D004A8265 /* main.m */; };
+		AAFFCFE21D5B058D004A8265 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFFCFE11D5B058D004A8265 /* AppDelegate.m */; };
+		AAFFCFE51D5B058D004A8265 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFFCFE41D5B058D004A8265 /* ViewController.m */; };
+		AAFFCFE81D5B058D004A8265 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFFCFE61D5B058D004A8265 /* Main.storyboard */; };
+		AAFFCFEB1D5B058D004A8265 /* BeautifulWardrobe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAFFCFE91D5B058D004A8265 /* BeautifulWardrobe.xcdatamodeld */; };
+		AAFFCFED1D5B058D004A8265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFFCFEC1D5B058D004A8265 /* Assets.xcassets */; };
+		AAFFCFF01D5B058D004A8265 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFFCFEE1D5B058D004A8265 /* LaunchScreen.storyboard */; };
+		AAFFCFFB1D5B058D004A8265 /* BeautifulWardrobeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFFCFFA1D5B058D004A8265 /* BeautifulWardrobeTests.m */; };
+		AAFFD0061D5B058D004A8265 /* BeautifulWardrobeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFFD0051D5B058D004A8265 /* BeautifulWardrobeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAFFCFF71D5B058D004A8265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAFFCFD21D5B058D004A8265 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFFCFD91D5B058D004A8265;
+			remoteInfo = BeautifulWardrobe;
+		};
+		AAFFD0021D5B058D004A8265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAFFCFD21D5B058D004A8265 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFFCFD91D5B058D004A8265;
+			remoteInfo = BeautifulWardrobe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAFFCFDA1D5B058D004A8265 /* BeautifulWardrobe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautifulWardrobe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFFCFDE1D5B058D004A8265 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAFFCFE01D5B058D004A8265 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAFFCFE11D5B058D004A8265 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAFFCFE31D5B058D004A8265 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAFFCFE41D5B058D004A8265 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAFFCFE71D5B058D004A8265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAFFCFEA1D5B058D004A8265 /* BeautifulWardrobe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeautifulWardrobe.xcdatamodel; sourceTree = "<group>"; };
+		AAFFCFEC1D5B058D004A8265 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAFFCFEF1D5B058D004A8265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAFFCFF11D5B058D004A8265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFFCFF61D5B058D004A8265 /* BeautifulWardrobeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautifulWardrobeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFFCFFA1D5B058D004A8265 /* BeautifulWardrobeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautifulWardrobeTests.m; sourceTree = "<group>"; };
+		AAFFCFFC1D5B058D004A8265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFFD0011D5B058D004A8265 /* BeautifulWardrobeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautifulWardrobeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFFD0051D5B058D004A8265 /* BeautifulWardrobeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautifulWardrobeUITests.m; sourceTree = "<group>"; };
+		AAFFD0071D5B058D004A8265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAFFCFD71D5B058D004A8265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFFCFF31D5B058D004A8265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFFCFFE1D5B058D004A8265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAFFCFD11D5B058D004A8265 = {
+			isa = PBXGroup;
+			children = (
+				AAFFCFDC1D5B058D004A8265 /* BeautifulWardrobe */,
+				AAFFCFF91D5B058D004A8265 /* BeautifulWardrobeTests */,
+				AAFFD0041D5B058D004A8265 /* BeautifulWardrobeUITests */,
+				AAFFCFDB1D5B058D004A8265 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAFFCFDB1D5B058D004A8265 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAFFCFDA1D5B058D004A8265 /* BeautifulWardrobe.app */,
+				AAFFCFF61D5B058D004A8265 /* BeautifulWardrobeTests.xctest */,
+				AAFFD0011D5B058D004A8265 /* BeautifulWardrobeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAFFCFDC1D5B058D004A8265 /* BeautifulWardrobe */ = {
+			isa = PBXGroup;
+			children = (
+				AAFFCFE01D5B058D004A8265 /* AppDelegate.h */,
+				AAFFCFE11D5B058D004A8265 /* AppDelegate.m */,
+				AAFFCFE31D5B058D004A8265 /* ViewController.h */,
+				AAFFCFE41D5B058D004A8265 /* ViewController.m */,
+				AAFFCFE61D5B058D004A8265 /* Main.storyboard */,
+				AAFFCFEC1D5B058D004A8265 /* Assets.xcassets */,
+				AAFFCFEE1D5B058D004A8265 /* LaunchScreen.storyboard */,
+				AAFFCFF11D5B058D004A8265 /* Info.plist */,
+				AAFFCFE91D5B058D004A8265 /* BeautifulWardrobe.xcdatamodeld */,
+				AAFFCFDD1D5B058D004A8265 /* Supporting Files */,
+			);
+			path = BeautifulWardrobe;
+			sourceTree = "<group>";
+		};
+		AAFFCFDD1D5B058D004A8265 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAFFCFDE1D5B058D004A8265 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAFFCFF91D5B058D004A8265 /* BeautifulWardrobeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAFFCFFA1D5B058D004A8265 /* BeautifulWardrobeTests.m */,
+				AAFFCFFC1D5B058D004A8265 /* Info.plist */,
+			);
+			path = BeautifulWardrobeTests;
+			sourceTree = "<group>";
+		};
+		AAFFD0041D5B058D004A8265 /* BeautifulWardrobeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAFFD0051D5B058D004A8265 /* BeautifulWardrobeUITests.m */,
+				AAFFD0071D5B058D004A8265 /* Info.plist */,
+			);
+			path = BeautifulWardrobeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAFFCFD91D5B058D004A8265 /* BeautifulWardrobe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFFD00A1D5B058D004A8265 /* Build configuration list for PBXNativeTarget "BeautifulWardrobe" */;
+			buildPhases = (
+				AAFFCFD61D5B058D004A8265 /* Sources */,
+				AAFFCFD71D5B058D004A8265 /* Frameworks */,
+				AAFFCFD81D5B058D004A8265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeautifulWardrobe;
+			productName = BeautifulWardrobe;
+			productReference = AAFFCFDA1D5B058D004A8265 /* BeautifulWardrobe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAFFCFF51D5B058D004A8265 /* BeautifulWardrobeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFFD00D1D5B058D004A8265 /* Build configuration list for PBXNativeTarget "BeautifulWardrobeTests" */;
+			buildPhases = (
+				AAFFCFF21D5B058D004A8265 /* Sources */,
+				AAFFCFF31D5B058D004A8265 /* Frameworks */,
+				AAFFCFF41D5B058D004A8265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAFFCFF81D5B058D004A8265 /* PBXTargetDependency */,
+			);
+			name = BeautifulWardrobeTests;
+			productName = BeautifulWardrobeTests;
+			productReference = AAFFCFF61D5B058D004A8265 /* BeautifulWardrobeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAFFD0001D5B058D004A8265 /* BeautifulWardrobeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFFD0101D5B058D004A8265 /* Build configuration list for PBXNativeTarget "BeautifulWardrobeUITests" */;
+			buildPhases = (
+				AAFFCFFD1D5B058D004A8265 /* Sources */,
+				AAFFCFFE1D5B058D004A8265 /* Frameworks */,
+				AAFFCFFF1D5B058D004A8265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAFFD0031D5B058D004A8265 /* PBXTargetDependency */,
+			);
+			name = BeautifulWardrobeUITests;
+			productName = BeautifulWardrobeUITests;
+			productReference = AAFFD0011D5B058D004A8265 /* BeautifulWardrobeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAFFCFD21D5B058D004A8265 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jianbing Zhou";
+				TargetAttributes = {
+					AAFFCFD91D5B058D004A8265 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AAFFCFF51D5B058D004A8265 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AAFFCFD91D5B058D004A8265;
+					};
+					AAFFD0001D5B058D004A8265 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AAFFCFD91D5B058D004A8265;
+					};
+				};
+			};
+			buildConfigurationList = AAFFCFD51D5B058D004A8265 /* Build configuration list for PBXProject "BeautifulWardrobe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAFFCFD11D5B058D004A8265;
+			productRefGroup = AAFFCFDB1D5B058D004A8265 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAFFCFD91D5B058D004A8265 /* BeautifulWardrobe */,
+				AAFFCFF51D5B058D004A8265 /* BeautifulWardrobeTests */,
+				AAFFD0001D5B058D004A8265 /* BeautifulWardrobeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAFFCFD81D5B058D004A8265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFFCFF01D5B058D004A8265 /* LaunchScreen.storyboard in Resources */,
+				AAFFCFED1D5B058D004A8265 /* Assets.xcassets in Resources */,
+				AAFFCFE81D5B058D004A8265 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFFCFF41D5B058D004A8265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFFCFFF1D5B058D004A8265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAFFCFD61D5B058D004A8265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFFCFE51D5B058D004A8265 /* ViewController.m in Sources */,
+				AAFFCFEB1D5B058D004A8265 /* BeautifulWardrobe.xcdatamodeld in Sources */,
+				AAFFCFE21D5B058D004A8265 /* AppDelegate.m in Sources */,
+				AAFFCFDF1D5B058D004A8265 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFFCFF21D5B058D004A8265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFFCFFB1D5B058D004A8265 /* BeautifulWardrobeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFFCFFD1D5B058D004A8265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFFD0061D5B058D004A8265 /* BeautifulWardrobeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAFFCFF81D5B058D004A8265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFFCFD91D5B058D004A8265 /* BeautifulWardrobe */;
+			targetProxy = AAFFCFF71D5B058D004A8265 /* PBXContainerItemProxy */;
+		};
+		AAFFD0031D5B058D004A8265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFFCFD91D5B058D004A8265 /* BeautifulWardrobe */;
+			targetProxy = AAFFD0021D5B058D004A8265 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAFFCFE61D5B058D004A8265 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAFFCFE71D5B058D004A8265 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAFFCFEE1D5B058D004A8265 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAFFCFEF1D5B058D004A8265 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAFFD0081D5B058D004A8265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAFFD0091D5B058D004A8265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAFFD00B1D5B058D004A8265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeautifulWardrobe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jianbing-Zhou.BeautifulWardrobe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAFFD00C1D5B058D004A8265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeautifulWardrobe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jianbing-Zhou.BeautifulWardrobe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AAFFD00E1D5B058D004A8265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeautifulWardrobeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jianbing-Zhou.BeautifulWardrobeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeautifulWardrobe.app/BeautifulWardrobe";
+			};
+			name = Debug;
+		};
+		AAFFD00F1D5B058D004A8265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeautifulWardrobeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jianbing-Zhou.BeautifulWardrobeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeautifulWardrobe.app/BeautifulWardrobe";
+			};
+			name = Release;
+		};
+		AAFFD0111D5B058D004A8265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeautifulWardrobeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jianbing-Zhou.BeautifulWardrobeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeautifulWardrobe;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AAFFD0121D5B058D004A8265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeautifulWardrobeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jianbing-Zhou.BeautifulWardrobeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeautifulWardrobe;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAFFCFD51D5B058D004A8265 /* Build configuration list for PBXProject "BeautifulWardrobe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFFD0081D5B058D004A8265 /* Debug */,
+				AAFFD0091D5B058D004A8265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFFD00A1D5B058D004A8265 /* Build configuration list for PBXNativeTarget "BeautifulWardrobe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFFD00B1D5B058D004A8265 /* Debug */,
+				AAFFD00C1D5B058D004A8265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAFFD00D1D5B058D004A8265 /* Build configuration list for PBXNativeTarget "BeautifulWardrobeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFFD00E1D5B058D004A8265 /* Debug */,
+				AAFFD00F1D5B058D004A8265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAFFD0101D5B058D004A8265 /* Build configuration list for PBXNativeTarget "BeautifulWardrobeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFFD0111D5B058D004A8265 /* Debug */,
+				AAFFD0121D5B058D004A8265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AAFFCFE91D5B058D004A8265 /* BeautifulWardrobe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AAFFCFEA1D5B058D004A8265 /* BeautifulWardrobe.xcdatamodel */,
+			);
+			currentVersion = AAFFCFEA1D5B058D004A8265 /* BeautifulWardrobe.xcdatamodel */;
+			path = BeautifulWardrobe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AAFFCFD21D5B058D004A8265 /* Project object */;
+}
