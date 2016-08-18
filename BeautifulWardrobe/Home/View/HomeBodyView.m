@@ -28,6 +28,7 @@ static NSString *cellID = @"collectionViewCell";
 
 @implementation HomeBodyView
 
+
 -  (instancetype)initWithFrame:(CGRect)frame superViewController:(UIViewController *)superViewControllr {
     if (self = [super initWithFrame:frame]) {
         self.superVc = superViewControllr;

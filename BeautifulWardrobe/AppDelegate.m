@@ -23,6 +23,11 @@
     [self.window setRootViewController:jbTabBarController];
     [FMDBManager createTable];
     [self.window makeKeyAndVisible];
+    
+    UITableViewCell *cell = [UITableViewCell appearance];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    UITableView *tableView = [UITableView appearance];
+    [tableView setSeparatorStyle:UITableViewCellSelectionStyleNone];
     return YES;
 }
 
