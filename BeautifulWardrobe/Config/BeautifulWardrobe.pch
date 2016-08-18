@@ -1,0 +1,29 @@
+//
+//  BeautifulWardrobe.pch
+//  BeautifulWardrobe
+//
+//  Created by Terra MacBook on 16/8/10.
+//  Copyright © 2016年 Jianbing Zhou. All rights reserved.
+//
+
+#ifndef BeautifulWardrobe_pch
+#define BeautifulWardrobe_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "Header.h"//头文件
+#import "Define.h"//工作宏
+#import "JBUrlDefine.h"//url宏
+
+//#pragma mark - 网络请求回调
+//typedef void(^JBRequestSuccessCallBack) (id value);
+//typedef void(^JBRequestErrorCallBack) (id error);
+//
+//定义返回请求数据的block类型
+typedef void (^ReturnValueBlock) (id returnValue);
+typedef void (^ErrorCodeBlock) (id errorCode);
+typedef void (^FailureBlock)();
+typedef void (^NetWorkBlock)(BOOL netConnetState);
+
+#endif /* BeautifulWardrobe_pch */

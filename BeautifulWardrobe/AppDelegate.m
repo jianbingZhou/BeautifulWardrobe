@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "JBTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    JBLOG(@"%@",NSHomeDirectory());
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    JBTabBarController *jbTabBarController = [[JBTabBarController alloc] init];
+    [self.window setRootViewController:jbTabBarController];
+    [FMDBManager createTable];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
