@@ -7,9 +7,10 @@
 //
 
 #import "JBViewController.h"
-
+@class GoodsDetailsbodyViewDataModel;
 @interface GoodsDetailsViewController : JBViewController
 
 @property (nonatomic,copy) NSString *taobao_num_iid;
+@property (nonatomic,strong) GoodsDetailsbodyViewDataModel *dataModel;
 
 @end

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A5D9331A1F9F92AF9CBF8645 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB545E10357557181A379685 /* libPods.a */; };
+		AA01EB591D669776003FA8F6 /* JBImageViewHandleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA01EB581D669776003FA8F6 /* JBImageViewHandleViewController.m */; };
+		AA01EB5C1D6697F5003FA8F6 /* JBImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA01EB5B1D6697F5003FA8F6 /* JBImageView.m */; };
 		AA1BA5771D64043600A108D7 /* NSURL+GetImageSize.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1BA5761D64043600A108D7 /* NSURL+GetImageSize.m */; };
 		AA1BA5881D64160600A108D7 /* JBBuyGoodsCountView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1BA5831D64160600A108D7 /* JBBuyGoodsCountView.m */; };
 		AA1BA5891D64160600A108D7 /* JBChoseGoodsView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1BA5851D64160600A108D7 /* JBChoseGoodsView.m */; };
@@ -79,6 +81,10 @@
 
 /* Begin PBXFileReference section */
 		63ECFFDEE07182162F1788DB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AA01EB571D669776003FA8F6 /* JBImageViewHandleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBImageViewHandleViewController.h; sourceTree = "<group>"; };
+		AA01EB581D669776003FA8F6 /* JBImageViewHandleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBImageViewHandleViewController.m; sourceTree = "<group>"; };
+		AA01EB5A1D6697F5003FA8F6 /* JBImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBImageView.h; sourceTree = "<group>"; };
+		AA01EB5B1D6697F5003FA8F6 /* JBImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBImageView.m; sourceTree = "<group>"; };
 		AA1BA5751D64043600A108D7 /* NSURL+GetImageSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+GetImageSize.h"; sourceTree = "<group>"; };
 		AA1BA5761D64043600A108D7 /* NSURL+GetImageSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+GetImageSize.m"; sourceTree = "<group>"; };
 		AA1BA5821D64160600A108D7 /* JBBuyGoodsCountView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBuyGoodsCountView.h; sourceTree = "<group>"; };
@@ -227,11 +233,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		AA01EB561D669727003FA8F6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AA01EB571D669776003FA8F6 /* JBImageViewHandleViewController.h */,
+				AA01EB581D669776003FA8F6 /* JBImageViewHandleViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		AA1BA5741D6403E000A108D7 /* Category */ = {
 			isa = PBXGroup;
 			children = (
 				AA1BA5751D64043600A108D7 /* NSURL+GetImageSize.h */,
 				AA1BA5761D64043600A108D7 /* NSURL+GetImageSize.m */,
+				AA01EB5A1D6697F5003FA8F6 /* JBImageView.h */,
+				AA01EB5B1D6697F5003FA8F6 /* JBImageView.m */,
 			);
 			name = Category;
 			path = BaseClass/Category;
@@ -293,6 +310,7 @@
 		AABAD4BB1D5B082A00C8E4B9 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				AA01EB561D669727003FA8F6 /* ViewController */,
 				AAF7B23C1D5D708000D15DC6 /* ViewModel */,
 				AABAD4C21D5B088200C8E4B9 /* JBTabBarController.h */,
 				AABAD4C31D5B088200C8E4B9 /* JBTabBarController.m */,
@@ -801,6 +819,7 @@
 				AABAD4E61D5B0F9100C8E4B9 /* PersonalViewController.m in Sources */,
 				AAB8354E1D6167F50015DE17 /* GoodsDetailsViewController.m in Sources */,
 				AAB8356E1D61A2E20015DE17 /* GoodsDetailsBrand.m in Sources */,
+				AA01EB591D669776003FA8F6 /* JBImageViewHandleViewController.m in Sources */,
 				AA1BA58A1D64160600A108D7 /* JBGoodsTypeView.m in Sources */,
 				AABAD4E01D5B0F6800C8E4B9 /* ClassificationViewController.m in Sources */,
 				AAB835711D61A2E20015DE17 /* GoodsDetailsMobileDesc.m in Sources */,
@@ -811,6 +830,7 @@
 				AAF0BEC31D5DD3F400DA2847 /* HomeCollectionViewCellSupplier.m in Sources */,
 				AAF0BE8E1D5D78E800DA2847 /* HomeAdsModelData.m in Sources */,
 				AAB8356F1D61A2E20015DE17 /* GoodsDetailsData.m in Sources */,
+				AA01EB5C1D6697F5003FA8F6 /* JBImageView.m in Sources */,
 				AA1BA5881D64160600A108D7 /* JBBuyGoodsCountView.m in Sources */,
 				AAB8357A1D6306640015DE17 /* GoodsDetailsTableViewCell.m in Sources */,
 				AAF0BEBE1D5DD3F400DA2847 /* HomeCollectionViewCellBrand.m in Sources */,

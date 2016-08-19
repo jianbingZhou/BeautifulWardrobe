@@ -13,13 +13,13 @@
 #import "JBChoseGoods.h"
 
 @interface GoodsDetailsViewController () {
-    NSArray *_dataArray;
+   // NSArray *_dataArray;
     UILabel *_goodsNumberLabel;
     NSMutableArray *_sizeArray;
     NSMutableArray *_colorArray;
     NSDictionary *_stockarr;
     CGFloat  _quantity;
-    GoodsDetailsbodyViewDataModel *_dataModel;
+    
     UIImageView *_animationImageView;
     CGFloat navOldheight;
     GoodsDetailsBodyViwe *bodyView;

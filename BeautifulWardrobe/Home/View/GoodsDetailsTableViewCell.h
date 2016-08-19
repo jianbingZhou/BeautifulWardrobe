@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface GoodsDetailsTableViewCell : UITableViewCell
-@property (nonatomic,strong) UIImageView *bgImageView;
+@property (nonatomic,strong) JBImageView *bgImageView;
 @end

@@ -24,10 +24,16 @@
     [FMDBManager createTable];
     [self.window makeKeyAndVisible];
     
-    UITableViewCell *cell = [UITableViewCell appearance];
-    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    //全局配置
+    //UITableViewCell *cell = [UITableViewCell appearance];
+    //cell.selectionStyle = UITableViewCellSelectionStyleNone;
     UITableView *tableView = [UITableView appearance];
-    [tableView setSeparatorStyle:UITableViewCellSelectionStyleNone];
+    [tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
+    UIScrollView *scrollView = [UIScrollView appearance];
+    scrollView.showsHorizontalScrollIndicator= NO;
+    scrollView.showsVerticalScrollIndicator = NO;
+    scrollView.pagingEnabled = YES;
+    scrollView.bounces = NO;
     return YES;
 }
 

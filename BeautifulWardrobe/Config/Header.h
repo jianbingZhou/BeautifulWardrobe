@@ -15,6 +15,7 @@
 #import "ClassificationViewController.h"
 #import "ShoppingViewController.h"
 #import "PersonalViewController.h"
+#import "GoodsDetailsViewController.h"
 
 //The third party
 #import "Masonry.h"
@@ -31,8 +32,9 @@
 #import "JBNetWorkingRequst.h"
 #import "FMDBManager.h"
 
-//Category
+//Category & subClass
 #import "NSURL+GetImageSize.h"
+#import "JBImageView.h"
 
 //model
 #import "DateBaseModelCollectionGoods.h"

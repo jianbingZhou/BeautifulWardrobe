@@ -46,6 +46,7 @@
 
 - (instancetype)init {
     if (self = [super init]) {
+        self.userInteractionEnabled = YES;
         [self createTableView];
     }
     return self;
