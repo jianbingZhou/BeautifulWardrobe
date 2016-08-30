@@ -41,8 +41,8 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = JBWhiteColor;
     [self setUpSubViews];
-    _animationImageView=[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"ani_addShopCart.png"]];
-    _animationImageView.frame=CGRectMake(-1, -1, 1, 1);
+    _animationImageView =[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"ani_addShopCart.png"]];
+    _animationImageView.frame = CGRectMake(-1, -1, 1, 1);
     [self.view addSubview:_animationImageView];
 }
 
@@ -217,10 +217,12 @@
             [alert show];
         return;
     }
-    DateBaseModelCollectionGoods *goods = [DateBaseModelCollectionGoods new];
+    DataBaseModelCollectionGoods *goods = [DataBaseModelCollectionGoods new];
     goods.taobao_num_iid = [_dataModel.data.taobaoNumIid intValue];
     goods.taobao_pic_url = _dataModel.data.taobaoPicUrl;
     goods.taobao_title = _dataModel.data.taobaoTitle;
+    goods.price = _dataModel.data.taobaoSellingPrice;
+    goods.totalCount = count;
     NSDateFormatter *dateFormate = [NSDateFormatter new];
     dateFormate.dateFormat = @"yyyy-MM-dd hh:mm:ss";
     goods.date = [dateFormate stringFromDate:[NSDate date]];
@@ -355,7 +357,7 @@
 }
 
 
--(void)participateButtonClicked:(UIButton *)button
+- (void)participateButtonClicked:(UIButton *)button
 {
     
     
@@ -363,7 +365,8 @@
 
 #pragma mark - shoppingCarBtnClick
 - (void)shoppingCarBtnClick:(UIButton *)btn {
-    
+    ShoppingViewController *shoppingVc = [[ShoppingViewController alloc] init];
+    [self.navigationController pushViewController:shoppingVc animated:YES];
 }
 
 #pragma mark - backBtnClick

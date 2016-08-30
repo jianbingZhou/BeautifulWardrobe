@@ -13,7 +13,7 @@
 
 @property (nonatomic, strong) NSString *content;
 @property (nonatomic, assign) double contentType;
-@property (nonatomic, assign) CGFloat height;
+@property (nonatomic, assign) double height;
 + (instancetype)modelObjectWithDictionary:(NSDictionary *)dict;
 - (instancetype)initWithDictionary:(NSDictionary *)dict;
 - (NSDictionary *)dictionaryRepresentation;

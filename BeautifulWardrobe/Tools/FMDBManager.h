@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-@class DateBaseModelCollectionGoods;
+@class DataBaseModelCollectionGoods;
 @interface FMDBManager : NSObject
 + (FMDatabase *)shareDataBase;
 + (NSString *)getFilePath;
 + (void)createTable;
-+ (void)insertCollectFromMessage:(DateBaseModelCollectionGoods *)dateBaseModelCollectionGoods;
++ (void)insertCollectFromMessage:(DataBaseModelCollectionGoods *)dateBaseModelCollectionGoods;
 + (void)deleteWithCollect:(int)iid;
 + (BOOL)serchCollect:(int)iid;
 + (NSArray *)getCollectData;

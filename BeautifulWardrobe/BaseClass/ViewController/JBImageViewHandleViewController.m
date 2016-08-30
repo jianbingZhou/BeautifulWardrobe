@@ -11,7 +11,7 @@
 @interface JBImageViewHandleViewController ()<UIScrollViewDelegate> {
     UIImage *_currentImage;
     UIScrollView *_bgScrollView;
-    NSMutableArray *_imagesArray;
+    NSMutableArray *_imagesArrays;
 }
 
 @end
@@ -21,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    _imagesArray = [[NSMutableArray alloc] initWithCapacity:0];
+    _imagesArrays = [[NSMutableArray alloc] initWithCapacity:0];
     [self setUpSubViews];
 }
 
@@ -103,7 +103,7 @@
         for (int i = 0; i < self.imagesUrlArray.count; i ++) {
             UIImageView *imageView = [UIImageView new];
             UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:self.imagesUrlArray[i]]]];
-            [_imagesArray addObject:image];
+            [_imagesArrays addObject:image];
             imageView.image = image;
             [_bgScrollView addSubview:imageView];
             imageView.frame = CGRectMake(i*kWIDTH, 0, kWIDTH, kHEIGHT - 60);
@@ -120,7 +120,7 @@
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
     int index = scrollView.contentOffset.x/kWIDTH;
-    _currentImage = _imagesArray[index];
+    _currentImage = _imagesArrays[index];
 }
 
 - (void)save:(UIButton *)btn {

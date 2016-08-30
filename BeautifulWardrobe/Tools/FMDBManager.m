@@ -19,6 +19,7 @@
 }
 + (NSString *)getFilePath {
     NSString *filePath = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/jbDataBase.sqlite"];
+    JBLOG(@"数据库路径：%@",filePath);
     NSFileManager *fileManager = [NSFileManager defaultManager];
     if ([fileManager fileExistsAtPath:filePath]) {
         JBLOG(@"数据库文件存在");
@@ -28,6 +29,7 @@
             JBLOG(@"创建数据库文件成功");
         }else {
             JBLOG(@"创建数据库文件失败");
+            
         }
     }
     
@@ -37,7 +39,7 @@
     FMDatabase *db = [FMDBManager shareDataBase];
     if ([db open]) {
         
-        NSString *sqlCollectStr = @"create table if not exists CollectTable (id integer primary key autoincrement not null,taobao_title text,taobao_pic_url text,taobao_num_iid int,date text)";
+        NSString *sqlCollectStr = @"create table if not exists CollectTable (id integer primary key autoincrement not null,taobao_title text,taobao_pic_url text,taobao_num_iid int,date text,price text,totalCount int)";
         [db executeUpdate:sqlCollectStr];
     }
     [db close];
@@ -45,11 +47,11 @@
 
 #pragma mark - 收藏
 #pragma mark --------插入数据
-+ (void)insertCollectFromMessage:(DateBaseModelCollectionGoods *)dateBaseModelCollectionGoods
++ (void)insertCollectFromMessage:(DataBaseModelCollectionGoods *)dateBaseModelCollectionGoods
 {
     BOOL isNeedInsert=YES;
     
-    NSString *insertSql=[NSString stringWithFormat:@"insert into CollectTable (taobao_title,taobao_pic_url,date,taobao_num_iid) values ('%@','%@','%@',%d)",dateBaseModelCollectionGoods.taobao_title,dateBaseModelCollectionGoods.taobao_pic_url,dateBaseModelCollectionGoods.date,dateBaseModelCollectionGoods.taobao_num_iid];
+    NSString *insertSql=[NSString stringWithFormat:@"insert into CollectTable (taobao_title,taobao_pic_url,date,taobao_num_iid,price,totalCount) values ('%@','%@','%@',%d,'%@',%d)",dateBaseModelCollectionGoods.taobao_title,dateBaseModelCollectionGoods.taobao_pic_url,dateBaseModelCollectionGoods.date,dateBaseModelCollectionGoods.taobao_num_iid,dateBaseModelCollectionGoods.price,dateBaseModelCollectionGoods.totalCount];
     
     FMDatabase *db=[FMDBManager shareDataBase];
     [db open];
@@ -110,13 +112,14 @@
     FMResultSet *set=[db executeQuery:fromTabeleStr];
     while ([set next]) {
         
-        DateBaseModelCollectionGoods *dateBaseModelCollectionGoods=[DateBaseModelCollectionGoods new];
+        DataBaseModelCollectionGoods *dateBaseModelCollectionGoods=[DataBaseModelCollectionGoods new];
         
         dateBaseModelCollectionGoods.taobao_num_iid=[set intForColumn:@"taobao_num_iid"];
         dateBaseModelCollectionGoods.taobao_pic_url=[set stringForColumn:@"taobao_pic_url"];
         dateBaseModelCollectionGoods.taobao_title=[set stringForColumn:@"taobao_title"];
         dateBaseModelCollectionGoods.date=[set stringForColumn:@"date"];
-        
+        dateBaseModelCollectionGoods.price = [set stringForColumn:@"price"];
+        dateBaseModelCollectionGoods.totalCount = [set intForColumn:@"totalCount"];
         [dataArray addObject:dateBaseModelCollectionGoods];
     }
     return dataArray;

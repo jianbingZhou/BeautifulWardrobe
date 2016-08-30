@@ -28,7 +28,8 @@
     //UITableViewCell *cell = [UITableViewCell appearance];
     //cell.selectionStyle = UITableViewCellSelectionStyleNone;
     UITableView *tableView = [UITableView appearance];
-    [tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
+    //[tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
+    tableView.showsVerticalScrollIndicator = NO;
     UIScrollView *scrollView = [UIScrollView appearance];
     scrollView.showsHorizontalScrollIndicator= NO;
     scrollView.showsVerticalScrollIndicator = NO;

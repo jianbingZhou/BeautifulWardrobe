@@ -6,8 +6,8 @@
 //  Copyright © 2016年 Jianbing Zhou. All rights reserved.
 //
 
-#import "DateBaseModelCollectionGoods.h"
+#import "DataBaseModelCollectionGoods.h"
 
-@implementation DateBaseModelCollectionGoods
+@implementation DataBaseModelCollectionGoods
 
 @end

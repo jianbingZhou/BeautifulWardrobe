@@ -37,6 +37,6 @@
 #import "JBImageView.h"
 
 //model
-#import "DateBaseModelCollectionGoods.h"
+#import "DataBaseModelCollectionGoods.h"
 
 #endif /* Header_h */

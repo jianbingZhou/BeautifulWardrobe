@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A5D9331A1F9F92AF9CBF8645 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB545E10357557181A379685 /* libPods.a */; };
+		AA00321D1D7578D1006DADDC /* ShoppingViewControllerCalculateView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA00321C1D7578D1006DADDC /* ShoppingViewControllerCalculateView.m */; };
 		AA01EB591D669776003FA8F6 /* JBImageViewHandleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA01EB581D669776003FA8F6 /* JBImageViewHandleViewController.m */; };
 		AA01EB5C1D6697F5003FA8F6 /* JBImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA01EB5B1D6697F5003FA8F6 /* JBImageView.m */; };
 		AA1BA5771D64043600A108D7 /* NSURL+GetImageSize.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1BA5761D64043600A108D7 /* NSURL+GetImageSize.m */; };
@@ -15,7 +16,7 @@
 		AA1BA5891D64160600A108D7 /* JBChoseGoodsView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1BA5851D64160600A108D7 /* JBChoseGoodsView.m */; };
 		AA1BA58A1D64160600A108D7 /* JBGoodsTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1BA5871D64160600A108D7 /* JBGoodsTypeView.m */; };
 		AA49A0111D659370005BF655 /* FMDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49A0101D659370005BF655 /* FMDBManager.m */; };
-		AA49A0151D659A52005BF655 /* DateBaseModelCollectionGoods.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49A0141D659A52005BF655 /* DateBaseModelCollectionGoods.m */; };
+		AA49A0151D659A52005BF655 /* DataBaseModelCollectionGoods.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49A0141D659A52005BF655 /* DataBaseModelCollectionGoods.m */; };
 		AAAE02D01D5C55FF009F56F4 /* HomeNav.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAE02CF1D5C55FF009F56F4 /* HomeNav.m */; };
 		AAAE02D31D5C84E1009F56F4 /* HomeBodyView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAE02D21D5C84E1009F56F4 /* HomeBodyView.m */; };
 		AAB8354E1D6167F50015DE17 /* GoodsDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB8354D1D6167F50015DE17 /* GoodsDetailsViewController.m */; };
@@ -42,6 +43,10 @@
 		AABAD4E61D5B0F9100C8E4B9 /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABAD4E51D5B0F9100C8E4B9 /* PersonalViewController.m */; };
 		AABAD4EB1D5B119600C8E4B9 /* JBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABAD4EA1D5B119600C8E4B9 /* JBViewController.m */; };
 		AABAD4F11D5B2A5500C8E4B9 /* JBNetWorkingRequst.m in Sources */ = {isa = PBXBuildFile; fileRef = AABAD4F01D5B2A5500C8E4B9 /* JBNetWorkingRequst.m */; };
+		AABC16151D75211600BF3D9E /* ShoppingViewControllerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AABC16141D75211600BF3D9E /* ShoppingViewControllerTableViewCell.m */; };
+		AABC16181D75222100BF3D9E /* ShoppingViewCellChangeCountView.m in Sources */ = {isa = PBXBuildFile; fileRef = AABC16171D75222100BF3D9E /* ShoppingViewCellChangeCountView.m */; };
+		AABC161C1D75243C00BF3D9E /* ic_cb_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = AABC161A1D75243C00BF3D9E /* ic_cb_checked.png */; };
+		AABC161D1D75243C00BF3D9E /* ic_cb_disable.png in Resources */ = {isa = PBXBuildFile; fileRef = AABC161B1D75243C00BF3D9E /* ic_cb_disable.png */; };
 		AAF0BE861D5D764100DA2847 /* HomeAdsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF0BE851D5D764100DA2847 /* HomeAdsViewModel.m */; };
 		AAF0BE8D1D5D78E800DA2847 /* HomeAdsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF0BE8A1D5D78E800DA2847 /* HomeAdsModel.m */; };
 		AAF0BE8E1D5D78E800DA2847 /* HomeAdsModelData.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF0BE8C1D5D78E800DA2847 /* HomeAdsModelData.m */; };
@@ -81,6 +86,8 @@
 
 /* Begin PBXFileReference section */
 		63ECFFDEE07182162F1788DB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AA00321B1D7578D1006DADDC /* ShoppingViewControllerCalculateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingViewControllerCalculateView.h; sourceTree = "<group>"; };
+		AA00321C1D7578D1006DADDC /* ShoppingViewControllerCalculateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingViewControllerCalculateView.m; sourceTree = "<group>"; };
 		AA01EB571D669776003FA8F6 /* JBImageViewHandleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBImageViewHandleViewController.h; sourceTree = "<group>"; };
 		AA01EB581D669776003FA8F6 /* JBImageViewHandleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBImageViewHandleViewController.m; sourceTree = "<group>"; };
 		AA01EB5A1D6697F5003FA8F6 /* JBImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBImageView.h; sourceTree = "<group>"; };
@@ -96,8 +103,8 @@
 		AA1BA58B1D6434E400A108D7 /* JBChoseGoods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JBChoseGoods.h; sourceTree = "<group>"; };
 		AA49A00F1D659370005BF655 /* FMDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBManager.h; sourceTree = "<group>"; };
 		AA49A0101D659370005BF655 /* FMDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBManager.m; sourceTree = "<group>"; };
-		AA49A0131D659A52005BF655 /* DateBaseModelCollectionGoods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateBaseModelCollectionGoods.h; sourceTree = "<group>"; };
-		AA49A0141D659A52005BF655 /* DateBaseModelCollectionGoods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateBaseModelCollectionGoods.m; sourceTree = "<group>"; };
+		AA49A0131D659A52005BF655 /* DataBaseModelCollectionGoods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseModelCollectionGoods.h; sourceTree = "<group>"; };
+		AA49A0141D659A52005BF655 /* DataBaseModelCollectionGoods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseModelCollectionGoods.m; sourceTree = "<group>"; };
 		AAAE02CE1D5C55FF009F56F4 /* HomeNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeNav.h; sourceTree = "<group>"; };
 		AAAE02CF1D5C55FF009F56F4 /* HomeNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeNav.m; sourceTree = "<group>"; };
 		AAAE02D11D5C84E1009F56F4 /* HomeBodyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeBodyView.h; sourceTree = "<group>"; };
@@ -154,6 +161,12 @@
 		AABAD4F01D5B2A5500C8E4B9 /* JBNetWorkingRequst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBNetWorkingRequst.m; sourceTree = "<group>"; };
 		AABAD4F21D5B2A6900C8E4B9 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 		AABAD4F31D5B2B6E00C8E4B9 /* JBUrlDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JBUrlDefine.h; sourceTree = "<group>"; };
+		AABC16131D75211600BF3D9E /* ShoppingViewControllerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingViewControllerTableViewCell.h; sourceTree = "<group>"; };
+		AABC16141D75211600BF3D9E /* ShoppingViewControllerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingViewControllerTableViewCell.m; sourceTree = "<group>"; };
+		AABC16161D75222100BF3D9E /* ShoppingViewCellChangeCountView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingViewCellChangeCountView.h; sourceTree = "<group>"; };
+		AABC16171D75222100BF3D9E /* ShoppingViewCellChangeCountView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingViewCellChangeCountView.m; sourceTree = "<group>"; };
+		AABC161A1D75243C00BF3D9E /* ic_cb_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_cb_checked.png; sourceTree = "<group>"; };
+		AABC161B1D75243C00BF3D9E /* ic_cb_disable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_cb_disable.png; sourceTree = "<group>"; };
 		AAF0BE841D5D764100DA2847 /* HomeAdsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeAdsViewModel.h; path = ../../ViewModel/HomeAdsViewModel.h; sourceTree = "<group>"; };
 		AAF0BE851D5D764100DA2847 /* HomeAdsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeAdsViewModel.m; path = ../../ViewModel/HomeAdsViewModel.m; sourceTree = "<group>"; };
 		AAF0BE881D5D78E800DA2847 /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
@@ -271,8 +284,8 @@
 		AA49A0121D659A0B005BF655 /* FMDBModel */ = {
 			isa = PBXGroup;
 			children = (
-				AA49A0131D659A52005BF655 /* DateBaseModelCollectionGoods.h */,
-				AA49A0141D659A52005BF655 /* DateBaseModelCollectionGoods.m */,
+				AA49A0131D659A52005BF655 /* DataBaseModelCollectionGoods.h */,
+				AA49A0141D659A52005BF655 /* DataBaseModelCollectionGoods.m */,
 			);
 			name = FMDBModel;
 			sourceTree = "<group>";
@@ -336,6 +349,7 @@
 		AABAD4BE1D5B082A00C8E4B9 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				AABC16191D75243C00BF3D9E /* shoppingCarImage */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -476,6 +490,12 @@
 		AABAD4DB1D5B0EB600C8E4B9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AABC16131D75211600BF3D9E /* ShoppingViewControllerTableViewCell.h */,
+				AABC16141D75211600BF3D9E /* ShoppingViewControllerTableViewCell.m */,
+				AABC16161D75222100BF3D9E /* ShoppingViewCellChangeCountView.h */,
+				AABC16171D75222100BF3D9E /* ShoppingViewCellChangeCountView.m */,
+				AA00321B1D7578D1006DADDC /* ShoppingViewControllerCalculateView.h */,
+				AA00321C1D7578D1006DADDC /* ShoppingViewControllerCalculateView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -499,6 +519,15 @@
 				AA49A0121D659A0B005BF655 /* FMDBModel */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		AABC16191D75243C00BF3D9E /* shoppingCarImage */ = {
+			isa = PBXGroup;
+			children = (
+				AABC161A1D75243C00BF3D9E /* ic_cb_checked.png */,
+				AABC161B1D75243C00BF3D9E /* ic_cb_disable.png */,
+			);
+			path = shoppingCarImage;
 			sourceTree = "<group>";
 		};
 		AAF0BE871D5D78E800DA2847 /* HomeAdsModel */ = {
@@ -743,7 +772,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AABC161C1D75243C00BF3D9E /* ic_cb_checked.png in Resources */,
 				AABAD4BA1D5B077900C8E4B9 /* Images.xcassets in Resources */,
+				AABC161D1D75243C00BF3D9E /* ic_cb_disable.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -824,6 +855,7 @@
 				AABAD4E01D5B0F6800C8E4B9 /* ClassificationViewController.m in Sources */,
 				AAB835711D61A2E20015DE17 /* GoodsDetailsMobileDesc.m in Sources */,
 				AAF0BE861D5D764100DA2847 /* HomeAdsViewModel.m in Sources */,
+				AA00321D1D7578D1006DADDC /* ShoppingViewControllerCalculateView.m in Sources */,
 				AAAE02D01D5C55FF009F56F4 /* HomeNav.m in Sources */,
 				AAF0BEC41D5DD3F400DA2847 /* HomeCollectionViewCellTaobaoItemImgs.m in Sources */,
 				AAB835761D61A2E20015DE17 /* GoodsDetailsSupplier.m in Sources */,
@@ -845,19 +877,21 @@
 				AAF0BEC01D5DD3F400DA2847 /* HomeCollectionViewCellMerchant.m in Sources */,
 				AABAD4F11D5B2A5500C8E4B9 /* JBNetWorkingRequst.m in Sources */,
 				AAF7B2451D5D711F00D15DC6 /* ViewModelClass.m in Sources */,
+				AABC16181D75222100BF3D9E /* ShoppingViewCellChangeCountView.m in Sources */,
 				AAAE02D31D5C84E1009F56F4 /* HomeBodyView.m in Sources */,
 				AA49A0111D659370005BF655 /* FMDBManager.m in Sources */,
 				AAB835721D61A2E20015DE17 /* GoodsDetailsPropsName.m in Sources */,
 				AAB835511D616F9B0015DE17 /* GoodsDetailsBodyViwe.m in Sources */,
 				AAFFCFE21D5B058D004A8265 /* AppDelegate.m in Sources */,
 				AAFFCFDF1D5B058D004A8265 /* main.m in Sources */,
-				AA49A0151D659A52005BF655 /* DateBaseModelCollectionGoods.m in Sources */,
+				AA49A0151D659A52005BF655 /* DataBaseModelCollectionGoods.m in Sources */,
 				AAF0BE8D1D5D78E800DA2847 /* HomeAdsModel.m in Sources */,
 				AABAD4EB1D5B119600C8E4B9 /* JBViewController.m in Sources */,
 				AABAD4C41D5B088200C8E4B9 /* JBTabBarController.m in Sources */,
 				AABAD4C71D5B08A900C8E4B9 /* JBNavigationController.m in Sources */,
 				AABAD4DD1D5B0EB600C8E4B9 /* HomeViewController.m in Sources */,
 				AAF0BEC81D5DD56700DA2847 /* HomeBgCollectionViewCell.m in Sources */,
+				AABC16151D75211600BF3D9E /* ShoppingViewControllerTableViewCell.m in Sources */,
 				AAB835701D61A2E20015DE17 /* GoodsDetailsMerchant.m in Sources */,
 				AA1BA5891D64160600A108D7 /* JBChoseGoodsView.m in Sources */,
 				AAB835751D61A2E20015DE17 /* GoodsDetailsSkus.m in Sources */,

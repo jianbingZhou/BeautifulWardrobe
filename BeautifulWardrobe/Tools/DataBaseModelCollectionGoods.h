@@ -8,10 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface DateBaseModelCollectionGoods : NSObject
+@interface DataBaseModelCollectionGoods : NSObject
 @property (nonatomic,assign) int goodsId;
 @property (nonatomic,copy) NSString *taobao_title;
 @property (nonatomic,copy) NSString *taobao_pic_url;
 @property (nonatomic,assign) int taobao_num_iid;
 @property (nonatomic,copy) NSString *date;
+@property (nonatomic,copy) NSString *price;
+@property (nonatomic,assign) int totalCount;
 @end

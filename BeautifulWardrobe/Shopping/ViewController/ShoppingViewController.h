@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ShoppingViewController : JBViewController
-
+@property (nonatomic,strong) NSArray *dataSourceArray;
 @end

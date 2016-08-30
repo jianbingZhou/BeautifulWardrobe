@@ -41,7 +41,7 @@
     }
     childController.tabBarItem.selectedImage = selectedImage;
     //abbaritem.imageInsets=UIEdgeInsetsMake(6, 0,-6, 0);
-    childController.tabBarItem.imageInsets = UIEdgeInsetsMake(6.f, 0, -6.f, 0);
+    childController.tabBarItem.imageInsets = UIEdgeInsetsMake(6.0f, 0, -6.0f, 0);
     
     // 设置tabBarItem的普通文字颜色
     NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];

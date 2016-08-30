@@ -96,25 +96,29 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     GoodsDetailsMobileDesc *desc = _dataModel.data.mobileDesc[indexPath.row];
-    if (desc.height == 0) {
-        return 300;
-    }else {
-        if (desc.height > 0) {
-            return desc.height + 10;
-        }else {
-            return 300;
-        }
-    }
 //    if (desc.height == 0) {
-//        NSURL *url = [NSURL URLWithString:desc.content];
-//        CGSize imageSize = [NSURL getImageSizeWithURL:url];
-//        desc.height = imageSize.height * kWIDTH/imageSize.width;
-//        
-//        
-//        return desc.height;
+//        return 300;
 //    }else {
-//        return desc.height + 10;
+//        if (desc.height > 0) {
+//            return desc.height + 10;
+//        }else {
+//            return 300;
+//        }
 //    }
+    if (desc.height == 0) {
+        NSURL *url = [NSURL URLWithString:desc.content];
+        CGSize imageSize = [NSURL getImageSizeWithURL:url];
+        CGFloat height = imageSize.height * kWIDTH/imageSize.width;
+        if (height > 200) {
+            desc.height = height;
+            return desc.height;
+        }else {
+            desc.height = 200;
+            return 200;
+        }
+    }else {
+        return desc.height;
+    }
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -123,19 +127,19 @@
     NSString *urlString = desc.content;
      //cell.bgImageView.frame=CGRectMake(0, 5, kWIDTH, desc.height);
     [cell.bgImageView sd_setImageWithURL:[NSURL URLWithString:urlString] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
-        if (desc.height == 0) {
-            
-            if (image.size.width>0) {
-                
-                desc.height = image.size.height*kWIDTH/image.size.width;
-                
-                [tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationNone];
-            }
-        }
-        
-        cell.bgImageView.frame=CGRectMake(0, 5, kWIDTH, desc.height);
+//        if (desc.height == 0) {
+//            
+//            if (image.size.width>0) {
+//                
+//                desc.height = image.size.height*kWIDTH/image.size.width;
+//                
+//                [tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationNone];
+//            }
+//        }
+//        
+//        cell.bgImageView.frame=CGRectMake(0, 5, kWIDTH, desc.height);
     }];
-    cell.bgImageView.frame=CGRectMake(0, 5, kWIDTH, desc.height);
+ //   cell.bgImageView.frame=CGRectMake(0, 5, kWIDTH, desc.height);
 
     return cell;
 }
